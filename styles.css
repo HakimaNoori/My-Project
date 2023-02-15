@@ -175,11 +175,272 @@
 /*-----------------*/
 /*--------feature-icon--------*/
 /*-----------------*/
-.feature-icon{
+.feature-icons{
     background-image:linear-gradient(rgba(20, 145, 20, 0.644), rgba(16, 199, 16, 0.74)),url(../img/bg.jpg);
     background-size: cover;
     height: 95vh;
     width: 100%;
     margin-top: 7rem;
     clip-path: polygon(0 20%,100% 0,100% 500px,0 100%);
+}
+.icon-box{
+    background-color: white;
+    width: 80%;
+    height: 250px;
+    margin-top: 10rem;
+    margin-left: 2rem;
+    text-align: center;
+    border-radius: 7px;
+}
+.icon-box:hover{
+    transform: translateY(-3px) scale(1.1);
+    box-shadow: 0 10px 15px gray;
+}
+.feature-icon{
+    font-size: 4rem;
+    color: green;
+    padding-top: 1rem;
+}
+.head-icon{
+    margin-top: 3rem;
+    color: gray;
+    font-size: 1.5rem;
+}
+.para-icon{
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    margin-top: 1rem;
+}
+/*----------------*/
+/*---------new products----*/
+/*-----------------*/
+.products{
+    margin-top: 3rem;
+}
+.new-products{
+    background-color: black;
+}
+.photo-list{
+    width: 25%;
+    height: auto;
+    float: left;
+    background-color: black;
+    list-style: none;
+}
+.fig-photo{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.fig-photo img{
+    width: 100%;
+    height: 250px;
+    float: left;
+    opacity: 0.7n;
+    transform: scale(0.99);
+    overflow: hidden;
+    transition: all .7s;
+}
+.fig-photo img:hover{
+    transform: scale(1.03);
+    overflow: hidden;
+    opacity: 1 ;
+}
+.container{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+/*---------------*/
+/*---------cities---------*/
+/*----------------*/
+.cities{
+    margin-top: 36rem;
+}
+.city-photo{
+    width: 80%;
+    height: auto;  
+
+}
+.il{
+    font-size: 1rem;
+    color: orange;
+}
+.btn-city{
+    margin-top: 2rem;
+    border: 0;
+    padding: 6px 5px;
+    background-color: green;
+    color: orange;
+}
+.container1{
+    margin-top: 2rem;
+    margin-left: 3.5rem;
+    margin-right: 3rem;
+}
+/*-------------------*/
+/*--------making happy-------*/
+/*-------------------*/
+.make-happy{
+    height: 80vh;
+    width: 100%;
+    background-image: url(../img/nat-10.jpg); 
+    background-size: cover;
+    margin-top: 3rem;
+}
+.person {
+    height: 11rem;
+    width: 80%;
+    margin-left: 7rem;
+    margin-top: 4rem;
+    background-color: aliceblue;
+    position: relative;
+}
+.zahra{
+    margin-top: 2rem;
+    margin-left: 5rem;
+    width: 140px;
+    height: 140px;
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+    transition: all .8s;
+}
+.zahra:hover{
+    transform: scale(0.9);
+    filter: blur(2px);
+}
+.caption{
+    font-size: 1.6rem;
+    color: orangered;
+    position: absolute;
+    top: 6.5rem;
+    left: 7.5rem;
+}
+.happy-para{
+    position: absolute;
+    top: 2.5rem;
+    left: 15rem;
+    font-size: 1.2rem;
+    text-align: justify;
+    width: 650px;
+}
+.happy-heading{
+    position: absolute;
+    top: 0.3rem;
+    left: 15rem;
+    color: rgb(54, 53, 53);
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-weight: 300px;
+}
+.p{
+    margin-top: 2rem;
+}
+/*---------------*/
+/*-----------section-booking------*/
+/*----------------*/
+.booking{
+    background-image: linear-gradient(to right bottom,
+     rgba(8, 109, 8, 0.705),rgba(28, 231, 28, 0.637));
+     height: 95vh;
+     width: 100%; 
+     margin-top: 3rem;
+     position: relative;
+}
+.box-booking{
+    background-image:linear-gradient(105deg,white 0%,
+    white 50%, transparent 50%),url(../img/nat-10.jpg);
+    background-size: cover;
+    width: 80%;
+    height: 70vh;
+    position: absolute;
+    top: 6rem;
+    left: 7rem;
+}
+.heading-book{
+    margin-left: 0.5rem;
+    margin-top: 4rem;
+}
+.booking-atrribute{
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+}
+.booking-form input{
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+    height: 3rem;
+
+}
+.booking-form label{
+    font-size: 1.3rem;
+}
+.gender{
+    font-size: 1.1rem;
+    margin-top: 2rem;
+}
+.Submit-book{
+    background-color: rgba(32, 245, 32, 0.836);
+    margin-left: 5rem;
+    padding: 3px 3px;
+}
+/*---------------*/
+/*-----------section-footer------*/
+/*----------------*/
+.section-footer{
+    background-image:linear-gradient(rgba(238, 158, 8, 0.801)
+    ,rgba(192, 110, 17, 0.726)),url(../img/footer%20bg.jpg);
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    margin-top: 4rem;
+    position: relative;
+}
+.box-navs{
+    margin-left: 40rem;
+
+}
+.item-link{
+    font-size: 1.5rem;
+    display: inline-block;
+    margin-left: 4rem;
+    margin-top: 3rem; 
+    list-style: none;
+}
+.link-footer{
+    color: blue;
+    text-decoration: none;
+}
+.link-footer:hover{
+    color: rgb(6, 6, 145);
+    text-decoration: underline;
+}
+.para-footer{
+    width: 65%;
+    height: 20vh;
+    margin-top: 10rem;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; 
+}
+.heading-footer{
+    color: rgb(149, 221, 15);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.paragraf{
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: aliceblue;
+}
+.sp{
+    text-transform: uppercase;
+}
+.btn-footer{
+    margin-top: 2rem;
+    padding: 7px 7px;
+    background-color: green;
+    border: 0px;
 }
